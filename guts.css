@@ -1,0 +1,77 @@
+body{
+    background-color:blanchedalmond;
+    font-size: 2rem;
+}
+h1{
+    position: relative;
+    text-align: center;
+     font-family: "Mozilla Headline"
+}
+.cerv{
+    color: red;
+}
+.b{
+    background-color: brown;
+    border-radius: 8%;
+    width: 200px;
+    height: 120px;
+    position: relative;
+    margin-left: 350px;
+    text-align: center;
+    padding-top: 10px;
+}
+.D{
+    border:2px solid black;
+    width: 500px;
+    height: 400px;
+    margin-left: 600px;
+    padding-left:100px ;
+}
+a img{
+
+    margin-right:5px ;
+    vertical-align: middle;
+}
+.lin{
+    font-size: 4rem;
+    font-family: "Mozilla Headline"
+}
+.gr{
+    font-size: 4rem;
+    font-family: "Mozilla Headline"
+}
+@media (max-width:600px) {
+    .body{
+        font-size: 1rem;
+    }
+    h1{
+        display: block;
+        text-align: justify;
+    }
+    .b{
+        margin-left: 50px;
+        text-align: center;
+        display: block;
+    }
+
+.D{
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+.lin{
+    font-size: 2rem;
+    display: block;
+}
+.gr{
+    font-size: 2rem;
+    display: block;
+}
+a img{
+    width: 60px;
+    height: 60px;
+}
+}

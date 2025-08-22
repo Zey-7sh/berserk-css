@@ -1,0 +1,37 @@
+body {
+  font-family: "Federant", serif;
+  background: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3M28yeWY0M2NhcjZkZGpicjZvYTdqYXo0Y3ZidThmN2dhZGVjZm44aCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/8YTEIhQ85VFwHcNJCI/giphy.gif");
+  background-size:contain;
+  
+}
+p{
+    color: gold;
+    font-size: 2rem;
+}
+img{
+    float:left
+}
+footer{
+    clear: both;
+    text-align: right;
+    color: blueviolet;
+    font-size: 25px;
+}
+
+
+
+@media (max-width:600px){
+    p{
+    font-size: 1rem;
+    text-align: justify;
+    background-size: auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    font-size: 14px;
+}
+
+}

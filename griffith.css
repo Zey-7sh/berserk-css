@@ -1,0 +1,36 @@
+body{
+    font-family: "Cinzel", serif;
+    background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3oyb2IzdnhsZ2kxOGhldmU5Z3EzNGl2Nmh6cTlnMHF6djF4OXQxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUOxeSTrDP4vsF2TXq/giphy.gif");
+    background-size:contain;
+}
+p{
+    color:darkred;
+    font-size: 2rem;
+}
+img{
+    float:left
+}
+footer{
+    clear: both;
+    text-align: right;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+@media (max-width:600px){
+    p{
+    font-size: 1rem;
+    text-align: justify;
+    background-size: auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    font-size: 14px;
+}
+
+}
